@@ -17,18 +17,18 @@ const Hero = () => {
             <p className="md:text-5xl sm:text-4xl text-xl font-bold text-white pt-3">
               Fast, Flexible financing for{" "}
               <TypeAnimation
-                sequence={["Saas", 1000, "B2B", 1000, "SEO", 1000]}
+                sequence={["SaaS", 1000, "B2B", 1000, "SEO", 1000]}
                 speed={50}
                 className="md:text-5xl sm:text-4xl text-xl font-bold text-white"
                 repeat={Infinity}
               />
             </p>
           </div>
-          <p className="md:text-2xl text-[1rem] font-bold text-gray-500 pt-5">
+          <p className="md:text-xl lg:text-2xl font-bold text-gray-500 pt-5">
             Monitor your data analytics to increase for B2B, SaaS, & SEO
             platforms
           </p>
-          <button className="bg-[#00df9a] w-[20dvh] rounded-lg font-medium mx-auto my-5 py-3 text-black">
+          <button className="bg-[#00df9a] w-[20dvh] rounded-lg font-medium mx-auto md: my-5 py-3 text-black">
             Get Started
           </button>
         </div>
