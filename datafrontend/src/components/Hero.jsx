@@ -14,7 +14,7 @@ const Hero = () => {
             Grow With Data.
           </h1>
           <div className="">
-            <p className="md:text-5xl sm:text-4xl text-xl font-bold text-white pt-3">
+            <p className="md:text-5xl sm:text-4xl text-xl font-bold text-white pt-1">
               Fast, Flexible financing for{" "}
               <TypeAnimation
                 sequence={["SaaS", 1000, "B2B", 1000, "SEO", 1000]}
