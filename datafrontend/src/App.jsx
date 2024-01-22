@@ -1,5 +1,6 @@
 import "./App.css";
 import Analytics from "./components/Analytics";
+import Footer from "./components/Footer";
 import Hero from "./components/Hero";
 import NavBar from "./components/NavBar";
 import Newletter from "./components/Newletter";
@@ -13,6 +14,7 @@ function App() {
       <Analytics />
       <Newletter />
       <PaymentCards />
+      <Footer />
     </div>
   );
 }
